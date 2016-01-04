@@ -37,9 +37,10 @@
             h1.align = "center";
             h2.align = "center";
             h3.align = "center";
-            _div.style.position = "fixed";
+            _div.style.position = "absolute";
             _div.style.top = "0px";
             _div.style.width = "100%";
-            _div.style.backgroundColor = "#eee";
+            _div.style.color = "#fff";
+            _div.style.backgroundColor = "#333";
             document.body.appendChild(_div);
         }
